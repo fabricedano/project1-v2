@@ -1,0 +1,256 @@
+@import url('http://fonts.cdnfonts.com/css/luminari');
+
+html, body {
+  /*height: 100%;
+  min-height: 100%;*/
+  margin: 0px;
+}
+
+p, li {
+  font-size: 18px;
+}
+
+.page {
+  height: inherit;
+  background-color: aliceblue;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.content {
+  margin-top: 24px;
+  background-color: aliceblue;
+}
+
+.center-div {
+    border-radius: 6px;
+    background-color: rgb(226, 226, 226);
+    margin: 0 auto;
+    width: 960px;
+}
+
+.event-center-div {
+  border-radius: 6px;
+  background-color: rgb(226, 226, 226);
+  margin: 0 auto;
+  width: 960px;
+  padding-bottom: 10px;
+}
+
+
+
+.logo {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.home-image {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 75px;
+}
+
+.image {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  border-radius: 40px 40px 20px 20px;
+}
+
+.gallery-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: solid;
+  border-color: darkgoldenrod;
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Luminari', sans-serif;
+    color: darkgoldenrod;
+}
+
+.home-title {
+  text-align: center;
+  font-family: 'Luminari', sans-serif;
+  color: darkgoldenrod;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Luminari', sans-serif;
+    color: crimson;
+}
+
+.news-title {
+  color: crimson;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+
+
+.slogan {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Luminari', sans-serif;
+    padding-bottom: 20px;
+}
+
+.form {
+  margin: 10px;
+  font-size: 18px;
+  width: 500px;
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.event-form {
+  margin: 10px;
+  font-size: 18px;
+  width: 500px;
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  padding: 10px 15px 0px 10px;
+}
+
+.field {
+  width: 100%;
+  clear: both;
+}
+
+#msg{
+  vertical-align: top;
+}
+
+.btn-marge {
+  padding: 5px 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-btn {
+  padding: 5px 50px;
+  margin-bottom: 30px;
+}
+
+.row-field {
+  margin-bottom: 30px;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+.prestation-center-div {
+  border-radius: 6px;
+  background-color: rgb(240, 238, 238);
+  margin: 20px auto;
+  width: 260px;
+  padding: 0px 15px 0px 15px;
+}
+
+.marge-txt {
+  margin: 30px;
+}
+
+.news-txt {
+  margin: 20px;
+}
+
+.formule-descrpt {
+  font-family: fantasy;
+  color: crimson;
+}
+
+.copyright {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.iframe {
+  width: 100vw;
+  height: 90vh;
+}

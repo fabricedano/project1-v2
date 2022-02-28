@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Evénements</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="event-center-div">
+            <h1 class="title">Evénement</h1>
+            <div class="box">
+                <div>
+                    <img src="images/character-form.jpg" class="image" alt="character-form">
+                </div>
+                <div class="marge-txt">
+                    <h2 class="subtitle">Création de personnage</h2>
+                    <hr>
+                    <p>Dans cet atelier, les rôlistes pourront créer leur personnage.</p>
+                    <p>Pour participer à atelier veuillez remplir le formulaire ci-dessous.</p>
+                </div>
+            </div>
+            <form class="event-form" action="#" method="post" id="eventForm">
+                <div class="row-field">
+                    <label for="name">Nom :</label>
+                    <input class="field" type="text" id="name" name="user_name">
+                </div>
+                <div class="row-field">
+                    <label for="surname">Prénom :</label>
+                    <input class="field" type="text" id="surname" name="user_surname">
+                </div>
+                <div class="row-field">
+                    <label for="mail">E-mail :</label>
+                    <input class="field" type="email" id="mail" name="user_mail">
+                </div>
+                <div class="btn-marge">
+                    <input class="custom-btn" type="submit" name="submit" value="Envoyer"></button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
